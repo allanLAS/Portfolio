@@ -3,6 +3,11 @@ h1,h2,h3,h4 {
   font-family: 'Odibee Sans', cursive;
 }
 
+body {
+  background-color: beige;
+
+}
+
 p {
   font-family: 'Baskervville', serif;
 
@@ -34,4 +39,10 @@ li a{
 
 .projects {
   text-align: none;
+  padding: 8px;
+  margin: 20px;
+}
+
+span {
+  color: blue;
 }

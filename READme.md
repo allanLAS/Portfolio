@@ -13,7 +13,7 @@ Feel free to contact me via allanlas@gmail.com
 ## known bugs
 One of my projects links has a problem.
 
-MIT License
+# MIT License
 
 Copyright (c) [2019] [Allan Lumumba]
 
