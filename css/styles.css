@@ -50,3 +50,7 @@ img {
 span {
   color: blue;
 }
+
+.footer {
+  display: block;
+}
