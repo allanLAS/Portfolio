@@ -53,11 +53,8 @@ span {
 
 .footer {
   display: block;
-  padding: 20px;
+  background-color: cadetblue;
   text-align: center;
   width: 100%;
 }
 
-.footer {
-  text-align: center;
-}
