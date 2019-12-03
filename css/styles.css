@@ -1,13 +1,12 @@
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   text-align: center;
-  font-family: 'Odibee Sans', cursive;
+  font-family: "Odibee Sans", cursive;
 }
 
 body {
   background-color: beige;
-  
-
-
 }
 
 .home {
@@ -15,8 +14,7 @@ body {
 }
 
 p {
-  font-family: 'Baskervville', serif;
-
+  font-family: "Baskervville", serif;
 }
 
 ul {
@@ -31,7 +29,7 @@ li {
   display: inline-block;
 }
 
-li a{
+li a {
   display: block;
   padding: 16px;
   text-decoration: none;
