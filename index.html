@@ -1,36 +1,96 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Portfolio</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    
-  </head>
+<head>
+  <title>Portfolio</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
 
-  <body>
+<body>
 
-    <h1>Allan's Portfolio</h1>
+  <h1>Allan's Portfolio</h1>
 
-      <nav>
-          <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-      </nav>
+  <nav>
+    <ul>
+      <li><a href="#index.html" class="active">Home</a></li>
+      <li><a href="#aboutme.html">About me</a></li>
+      <li><a href="#projects.html">Projects</a></li>
+    </ul>
+  </nav>
+
+  <div class="home" id="index.html">
+    <img class="img" src="https://bit.ly/2OhtrOl" alt="coder">
+    <p>I'm <span>Allan Lumumba</span>, welcome to my portfolio!I recently started coding and created this portfolio in order to showcase my work and skills so far. Having studied an IT based course, I decided to join a coding school in order to expound on my computer skills. This has proven very fruitful since I can now do a lot more efficiently.</p>
+  </div>
+
+  <!-- About -->2
+    <div class="container">
+    <div class="aboutme" id="aboutme.html">
+        <h2>About me</h2>
+    </div>
+    <h3>Background</h3>
+    <p>I'm originally from North Coast, Mombasa specifically Nyali. I recently finished my <span
+        class="course">telecommunication engineering</span> course at Jomo Kenyatta University of Agriculture and
+      Technology, main campus. I've in the past worked for mabati rolling mills as an intern in the IT department. I've
+      also worked for siginon logistics as a logistics officer and also in the finance department</p>
+
+    <h3>Job experience</h3>
+    <p>I decided to take a class on programming so as to advance my career path of being a telecommunication and
+      electrical engineering. Also as the world advances more on the technology side, I want to acquire relevant skills
+      that will prove relevant in the near future and programming happens to be one of those critical skills.</p>
+
+    <h3>Interests and Hobbies</h3>
+    <p>My current interests are sports namely football and rugby, gaming and fitness. My hobbies are playing playstation
+      and hanging out with my friends </p>
+  </div>
+
+  <!-- Projects -->
+  <h2>Projects</h2>
+
+  <div class="projects" id="projects.html">
+    <p>So far these are the projects I've worked on:</p>
+
+    <ol>
+      <li>
+        <h3>Travel agency</h3>
+      </li><br>
+      <p>I designed a website for <strong>Happy Trails Travel Agency</strong></p>
+      <p>Click <a href="https://allanlas.github.io/travel-agency/"><em>here</em></a> to view their website</p><br>
+      <div class="row">
+        <div class="column"><img class="travelimage" src="https://bit.ly/2qcaS57" style="width: 100%"></div>
+        <div class="column"><img class="travelimage" src="https://bit.ly/33BB7j7" style="width: 100%"></div>
+        <div class="column"><img class="travelimage" src="https://bit.ly/33HKehY" style="width: 100%"></div>
+      </div>
+
+      <li>
+        <h3>Resort</h3>
+      </li><br>
+      <p>I was given a task of designing a website for a well known resort known as <strong>Montana Island
+          Resort</strong></p>
+      <p><a href="https://allanlas.github.io/resort-website/"><em>Here</em></a> is their website</p><br>
+      <div class="row">
+          <div class="column"><img class="resortimage" src="https://bit.ly/2Y7I3TI" style="width: 100%"></div>
+          <div class="column"><img class="resortimage" src="https://bit.ly/2Lc8q5G" style="width: 100%"></div>
+          <div class="column"><img class="resortimage" src="https://bit.ly/2YbXR8i" style="width: 100%"></div>
+        </div>
+      <li>
+        <h3>Pet website</h3>
+      </li><br>
+      <p>I decided to make one website for my beloved dog. As they say, dogs are surely a man's best friend</p>
+      <p>Feel free to <a href="https://allanlas.github.io/pet-website/"><em>view</em></a> Spike's website.</p>
+      <img class="resortimage" src="https://bit.ly/37YUVQE" style="width: 100%">
       
-    <div class="projects">
-      <p>I'm <span>Allan Lumumba</span>, welcome to my portfolio!<br> I recently started coding and created this portfolio in order to showcase my work and skills so far.</p>
-  
-      <img src="https://bit.ly/2OhtrOl" alt="coder">
-    </div>
+    </ol>
+  </div>
 
-    <div>
-      <footer class="footer">
-        <p>@Allan Lumumba</p>
-        <p>Contacts: +254720858585</p>
-        <p><em>2019 All Rights Reserved</em></p>
-      </footer>
-    </div>
-  </body>
+  <div>
+    <footer class="footer">
+      <p>@Allan Lumumba</p>
+      <p>Contacts: +254720858585</p>
+      <p><em>2019 All Rights Reserved</em></p>
+    </footer>
+  </div>
+</body>
+
 </html>
